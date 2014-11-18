@@ -228,6 +228,7 @@ background-position: 50%;
 	text-align: left; /* ajustar alineacion (justify, left, right o center) */	
 	color: #2e2f33;
 	margin-bottom: 32px;
+	padding-left: 35px;
 }
 
 .indepth_page_content .indepth_subtitle{
@@ -240,6 +241,7 @@ background-position: 50%;
 	color: #3b3b3b;
 	letter-spacing: 15;
 	margin-right: 35px;
+	padding-left: 35px;
 }
 
 .indepth_page_content .indepth_text{
