@@ -153,6 +153,7 @@
 	background-position: center center;
 	margin: auto;
 	margin-top: 90px;
+	cursor: pointer;
 }
 
 .indepth_arrow_down:hover{
