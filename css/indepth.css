@@ -5,31 +5,7 @@
 	height: 100% !important;
 }
 
-			
-#indepth_break_5 .indepth_parallax_back{
-	background-image: url(../images/Banner_Epura_Juanfutbol.jpg);
-	height: 800px;
-}
 
-#indepth_map{
-	height: 455px;
-	width: 426px;
-}
-
-.indepth_page_content .indepth_text .f_letter{
-	font-size: 60px;
-	float: left;
-	line-height: 50px;
-	margin-right: 2px;
-	font-weight: 700;
-}
-
-
-
-#indepth_page3 {
-background-image: url(../images/fondo.jpg);
-background-position: 50%;
-}
 
 .indepth_media_cont{
 	width:100%;display:table;margin-bottom:20px;margin-top: 20px;
@@ -471,20 +447,17 @@ background-position: 50%;
 
 /****DINAMICO****/
 
-.indepth_page_uno{
-	background: white;
-}
 
 .indepth_break_tipo2 .indepth_text_container{
 	float: right;
 }
 
 #indepth_break_1 .indepth_parallax_back{
-	background-image: url(../images/break1.jpg)
+	background-image: url(../images/portada.jpg)
 }
 
 #indepth_break_2 .indepth_parallax_back{
-	background-image: url(../images/break2.jpg);
+	background-image: url(../images/portada.jpg);
 	background-size: 100% auto;
 }
 
@@ -498,124 +471,8 @@ background-position: 50%;
 	background-image: url(../images/epura.jpg);
 }
 
-/***** menu******/
-#indepth_intro .indepth_authors{
-	width: 600px;
-	margin: 30px auto;
-	height: auto;
-}
 
-#indepth_intro .indepth_authors .indepth_authors_container{
-	height: 130px;
-	margin-bottom: 20px;
-	display: table;
-}
 
-#indepth_authors_2{
-	width: 465px;
-	margin: auto;	
-}
-
-#indepth_authors_1{
-	width: 600px;
-	margin: auto;
-	
-}
-#indepth_intro .indepth_author{
-	float: left;
-}
-
-.indepth_author{
-	width: 120px;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-position: 50% 0px;
-	color: #525252;
-	font-size: 14px;
-	font-family: 'roboto';
-	text-align: center;
-	text-transform: uppercase;
-	height: 150px;
-	margin: auto;
-}
-
-#indepth_authors_2 .indepth_author{
-	min-width: 155px;
-	width: 155px;
-}
-
-.indepth_author p{
-	width: 100%;
-}
-
-.indepth_author_menu a{
-	text-decoration: none;
-}
-
-.indepth_author .indepth_author_img{
-	width: 90px;
-	height: 90px;
-	margin: auto;
-	border-radius: 50%;
-	background-repeat: no-repeat;
-	overflow: hidden;
-	margin-bottom: 3px;
-	background-size: auto 100%;
-	background-position: 50%;
-	
-	background-image: url(../images/generico.jpg);
-	
-}
-
-.indepth_author .indepth_author_img.active{
-	cursor: pointer;
-}
-
-.indepth_author .indepth_author_img.active:hover{
-	border:  1px solid #F1F1F1;
-}
-
-#indepth_authors_1 .indepth_author_img{
-	margin-top: 20px;
-}
-
-#GARRINCHA .indepth_author_img{
-	background-image: url(../images/simeone_2.jpg);
-	background-position: center center;
-
-}
-
-#PAUL .indepth_author_img{
-	background-image: url(../images/portada1_movil1.jpg);
-	background-position: center center;
-}
-
-#GEORGE .indepth_author_img{
-		background-image: url(../images/ancelotti.jpg);
-	background-position: center center;
-}
-
-#SOCRATES .indepth_author_img{
-		background-image: url(../images/madrid.jpg);
-	background-position: 5% center;
-}
-
-#SOCRATES1 .indepth_author_img{
-		background-image: url(../images/image5.jpg);
-	background-position: 70% center;
-}
-
-.simione{
-	margin: -40px -50px -20px 10px;
-}
-
-.ancelotti{
-	margin: -90px 15px 0 -30px;-moz-transform: scaleX(-1); /* Firefox */
--o-transform: scaleX(-1); /* Opera */
--webkit-transform: scaleX(-1); /* Chrome y Safari */
-transform: scaleX(-1); /* w3org */
-filter: FlipH; /* Internet Explorer */
-}
 
 
 @media screen and (min-width: 1920px) {
@@ -647,10 +504,18 @@ filter: FlipH; /* Internet Explorer */
 	}
 }
 
+@media screen and (max-width:1100px) {
+	.indepth_page_content .indepth_page_body{
+		width: 100%;
+	}
+}
+
 @media screen and (max-width: 800px) {
 
 
-
+	.indepth_image, .indepth_image img{
+		width: 100%
+	}
 	.indepth_pages{
 		width: 100%;
 		max-width: 800px;	
@@ -742,20 +607,11 @@ filter: FlipH; /* Internet Explorer */
 		
 	}
 	
-	.rertert{
-		float: none;
-		width: 500px;
-		margin: auto;
-		position: relative;
+	.indepth_page_content .indepth_title {
+		font-size: 48px;
+		line-height: 53px;
 	}
 	
-	#indepth_twitter_editor{
-		display: none;
-	}
-	
-	.editor_picture{
-		top: -15px;
-	}
 	
 	#indepth_cover .indepth_title{
 
@@ -776,14 +632,6 @@ filter: FlipH; /* Internet Explorer */
 
 
 
-.indepth_image_side{
-	width:100%;margin:0px;
-	float: left;
-}
-
-.indepth_image_side img{
-	width: 100%;
-}
 
 	#indepth_break_5 .indepth_parallax_back {
 		background-size: auto 100%;
@@ -821,11 +669,6 @@ filter: FlipH; /* Internet Explorer */
 		background-attachment: initial;
 	}
 	
-	.indepth_break .indepth_title{
-		font-size:46px;
-		text-transform: uppercase;
-		font-weight: 700;
-	}
 
 
 }
@@ -836,13 +679,20 @@ filter: FlipH; /* Internet Explorer */
 		height: auto;	
 	}
 	
-
-	.indepth_tabla_mapa{
-		width: 99%;
+	.indepth_page_cont{
+		width: 100%;
+		float: none;
+		margin: 25px auto;
+	}
+	.indepth_page_content{
+		height: auto;
+		padding-top: 50px;
+		padding-bottom: 30px;
 	}
 	
-	#indepth_mapa_text{
-		width: 280px;
+	.indepth_page_content .indepth_page_body{
+		height: auto;
+		display: table;
 	}
 	
 	#indepth_cover .indepth_title{
