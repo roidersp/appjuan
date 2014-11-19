@@ -124,7 +124,11 @@ $(document).ready(function(){
 	indepth_sizeAdjust(true);
 	indepth_preloadImgs();
 	var ventana_alto = $(window).height();
-	//$("#indepth_break_2").css("height",)
+    	$('#indepth_cover').css("height",(ventana_alto)+"px");
+    	 if(ventana_alto>600){
+	 	$('.indepth_break').css("height",ventana_alto+"px");
+	 	$('#indepth_cover .indepth_cover_back_body').css("top",ventana_alto*.60);
+ 	}
 	if(navigator.platform == 'iPad' || navigator.platform == 'iPhone' || navigator.platform == 'iPod' || navigator.platform == 'Android')
     {   	
     
