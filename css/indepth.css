@@ -460,7 +460,6 @@
 
 #indepth_break_2 .indepth_parallax_back{
 	background-image: url(../images/portada.jpg);
-	background-size: 100% auto;
 }
 
 #indepth_break_3 .indepth_parallax_back{
@@ -983,3 +982,12 @@
 		background-attachment: initial;
 	}
 }
+
+#top-bar-wrapper{
+	display: none;
+}
+
+#nav-bar-wrapper{
+	display: none;
+}
+
