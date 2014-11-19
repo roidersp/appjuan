@@ -669,19 +669,11 @@
 		background-attachment: initial;
 	}
 	
-
-
-}
-
-@media screen and (max-width: 414px) {
-
-	#indepth_cover{
-		height: auto;	
-	}
 	
 	.indepth_page_cont{
 		width: 100%;
 		float: none;
+		max-width: 400px;
 		margin: 25px auto;
 	}
 	.indepth_page_content{
@@ -694,6 +686,21 @@
 		height: auto;
 		display: table;
 	}
+	
+	.indepth_store_item{
+		float: none;
+		margin: auto;
+	}
+
+}
+
+@media screen and (max-width: 414px) {
+
+	#indepth_cover{
+		height: auto;	
+	}
+	
+	
 	
 	#indepth_cover .indepth_title{
 		width: 100%;
@@ -708,10 +715,7 @@
 		margin-top: 0px;
 	}
 	
-	.indepth_store_item{
-		float: none;
-		margin: auto;
-	}
+	
 	
 	.indepth_arrow_down{
 			margin-top: 50px;
