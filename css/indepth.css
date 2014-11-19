@@ -698,10 +698,10 @@
 @media screen and (max-width: 414px) {
 
 	#indepth_cover{
-		height: auto;	
+		height: auto;
+		min-height: 736px;	
 	}
-	
-	
+
 	
 	#indepth_cover .indepth_title{
 		width: 100%;
@@ -792,7 +792,7 @@
 @media screen and (max-height: 414px) {
 	
 	#indepth_cover{
-		min-height: 736px;
+		min-height: 0px;
 	}
 
 
