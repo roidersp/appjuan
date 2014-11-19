@@ -58,10 +58,18 @@ background-position: 50%;
 .indepth_page_content{
 	background-color:  white;
 	position: relative;
+	height: 580px;
+	padding: 0;
+	text-align: center;
 }
 
 #com{
 	background: white;
+}
+
+.indepth_page_content .indepth_page_body{
+	width: 1100px;
+	height: 580px;
 }
 
 .indepth_page_body{
@@ -117,35 +125,31 @@ background-position: 50%;
 	display: table;
 }
 
-#indepth_cover .indepth_cover_back_body{
-	position: relative;url(../images/flecha_indepth.png)
-	top: 350px;
-	background: rgba(0, 0, 0, 0.40);
-	padding: 20px 0;
-}
 
 #indepth_cover .indepth_title{
 	font-size:70px;
 	color:#FFF;
-	font-weight: 700;
+	font-weight: 400;
 	line-height: 75px;
-	letter-spacing: 0px;
+	letter-spacing: 3px;
 	width: 600px;
 	text-align: center;
 	margin: auto;
 	margin-bottom: 40px;
+	font-family: 'Oswald', 'sans-serif';
 }
 
 #indepth_cover .indepth_subtitle{
 	font-size:30px;
 	color:#FFF;
 	line-height: 42px;
-	font-weight: 400;
-	width: 690px;
-	letter-spacing: 0px;
+	font-weight: 300;
+	width: 640px;
+	letter-spacing: -1px;
 	text-align: center;
 	margin: auto;
 	margin-bottom: 50px;
+	font-family: 'Roboto', 'sans-serif';
 	
 }
 
@@ -195,33 +199,43 @@ background-position: 50%;
 /**********************/
 
 .indepth_page_content .indepth_page_body{
-	padding: 60px 0;
+	padding: 0px 0;
 	position: relative;
+	display: table;
 }
 
 .indepth_page_content .indepth_container{
 	position: relative;
-	display: inline-block;
+	display: table-cell;
+	vertical-align: middle;
 	width: 100%;
 	margin-bottom: 10px;
+	
 }
 
 .indepth_page_content .indepth_title{
-	font-size:34px;   /* tamaño */
-	font-family: 'Roboto', sans-serif; /* fuente */
-	font-weight: 600;
-	text-transform: uppercase; /* comentar para quitar mayusculas */
-	text-align: center; /* ajustar alineacion (justify, left, right o center) */	
-	color: #000;
+	font-size:62px;   /* tamaño */
+	font-family: 'Oswald', 'sans-serif'; /* fuente */
+	font-weight: 400;
+	line-height: 55px;
+	letter-spacing: 3px;
+	text-align: left; /* ajustar alineacion (justify, left, right o center) */	
+	color: #2e2f33;
+	margin-bottom: 32px;
+	padding-left: 35px;
 }
 
 .indepth_page_content .indepth_subtitle{
-	font-size:22px;   /* tamaño */
-	font-family: 'Roboto', sans-serif; /* fuente */
+	font-size:25px;   /* tamaño */
+	line-height: 32px;
+	letter-spacing: -1px;
+	font-family: 'Roboto', 'sans-serif'; /* fuente */
 	font-weight: 400;
-	text-transform: uppercase; /* comentar para quitar mayusculas */
-	text-align: center; /* ajustar alineacion (justify, left, right o center) */	
-	color: #000;
+	text-align: left; /* ajustar alineacion (justify, left, right o center) */	
+	color: #3b3b3b;
+	letter-spacing: 15;
+	margin-right: 35px;
+	padding-left: 35px;
 }
 
 .indepth_page_content .indepth_text{
@@ -377,16 +391,23 @@ background-position: 50%;
 .indepth_image_r{
 	float: right ;
 	width: 350px;
-margin-left: 20px;
-margin-top: 15px;
+	margin-left: 20px;
+	margin-top: 15px;
 }
 
 .indepth_image_r img{
 	width: 100%;
 }
 
-#indepth_page1{
-	background-color: #292929;
+.indepth_page_cont{
+	float: left;
+	width: 50%;
+	display: table;
+	position: relative;
+	height: 100%;
+}
+
+.indepth_page{
 }
 
 #indepth_page3{
