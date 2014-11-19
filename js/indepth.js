@@ -118,7 +118,7 @@ if (window.DISQUS) {
 
 
 
-
+indepth_sizeAdjust(true);
 
 $(document).ready(function(){
 	indepth_sizeAdjust(true);
