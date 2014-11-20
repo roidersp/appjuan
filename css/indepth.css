@@ -194,11 +194,11 @@
 	font-size:62px;   /* tamaño */
 	font-family: 'Oswald', 'sans-serif'; /* fuente */
 	font-weight: 400;
-	line-height: 65px;
-	letter-spacing: 3px;
+	line-height: 57px;
+	letter-spacing: 1px;
 	text-align: left; /* ajustar alineacion (justify, left, right o center) */	
 	color: #2e2f33;
-	margin-bottom: 32px;
+	margin-bottom: 26px;
 	padding-left: 35px;
 }
 
@@ -270,27 +270,6 @@
 
 }
 
-.indepth_break .indepth_text_container{
-		height: 100%; /* */
-		display: table;
-}
-
-.indepth_break .indepth_text{
-	font-size:17px;
-	font-weight: 400;
-	color: #fff; /* color de la fuente*/
-	max-width:400px;
-	display: table-cell;
-	vertical-align: middle;		
-	text-align: justify;	
-}
-
-.indepth_break .indepth_title{
-	font-size:56px;
-	text-transform: uppercase;
-	font-weight: 700;
-}
-
 
 .indepth_parallax_back {
 	height: 100%;
@@ -303,78 +282,6 @@
 }
 
 
-.indepth_cuadricula{
-	width: 600px;
-	margin: 30px auto 10px;
-	display: table;
-}
-
-.indepth_cuadricula .indepth_cuadricula_fila{
-	width: 100%;
-	margin-bottom: 20px;
-	display: inline-block;
-}
-
-.indetpth_cuadricula_content{
-	width: 200px;
-	float: left;
-}
-
-.indepth_cuadricula_imagen{
-	width: 100px;
-	margin: auto;
-	height: 154px;
-	overflow: hidden;
-}
-
-.indepth_cuadricula_imagen img{
-	width: 100%;
-}
-
-.indepth_page_infografia img{
-	width: 640px;
-	margin: auto;
-}
-
-.indepth_libros_pie{
-	color: white;
-	font-family: 'roboto';
-	font-size: 12px;
-	padding: 5px 10px;
-	text-align: right;
-	background-color: #393939;
-	
-}
-
-.indepth_cuadricula_text{
-	text-align: center;
-	margin: 10px auto;
-	text-transform: uppercase;
-}
-
-.indepth_image_left{
-	float: left;
-	margin-right: 20px;
-	margin-top: 5px;
-	margin-bottom: 20px;
-	text-align: center;
-	width: 400px;
-}
-
-.indepth_image_left img{
-	width: 100%;
-}
-
-.indepth_image_r{
-	float: right ;
-	width: 350px;
-	margin-left: 20px;
-	margin-top: 15px;
-}
-
-.indepth_image_r img{
-	width: 100%;
-}
 
 .indepth_page_cont{
 	float: left;
@@ -387,8 +294,21 @@
 .indepth_page{
 }
 
-#indepth_page3{
-	//background-color: #eadb7b;
+#indepth_page4 .indepth_store{
+	margin-left: 35px;
+	margin-top: 30px;
+}
+
+#indepth_page4 .indepth_store_item{
+	width: 162px;
+}
+
+#indepth_page4 .indepth_store_item img{
+	width: 100%;
+}
+
+#indepth_page4 .indepth_store_item.indepth_apple{
+	margin-right: 27px;
 }
 
 #indepth_page1 .indepth_text{
