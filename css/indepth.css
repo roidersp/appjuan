@@ -483,7 +483,7 @@
 
 #indepth_cover .indepth_subtitle{
 
-	width: 95%;
+	width: 90%;
 
 	
 }
@@ -534,7 +534,7 @@
 	
 	#indepth_cover .indepth_subtitle, .indepth_page_content .indepth_subtitle{
 		margin: auto;
-		width: 95%;
+		width: 88%;
 	}
 
 .indepth_social_item{
@@ -632,7 +632,7 @@
 
 	
 	.indepth_store_item{
-		width: 200px;
+		width: 180px;
 		
 		
 	}
@@ -649,7 +649,7 @@
 	}
 	
 	#indepth_cover .indepth_subtitle{
-		width: 95%;
+		width: 88%;
 		font-size: 20px;
 		line-height: 26px;
 		margin-top: 0px;
@@ -757,7 +757,7 @@
 	
 	.indepth_store_item{
 		margin: auto;
-		width: 200px;
+		width: 180px;
 	}
 	
 	.indepth_store_item img{
@@ -902,7 +902,7 @@
 		.indepth_store_item{
 		float: none;
 		margin: auto;
-		width: 200px;
+		width: 162px;
 	}
 	
 	.indepth_store_item img{
@@ -940,7 +940,7 @@
 	}
 	
 	#indepth_cover .indepth_subtitle{
-		width: 100%;
+		width: 88%;
 		font-size: 20px;
 		line-height: 26px;
 		margin-top: 0px;
@@ -977,6 +977,11 @@
 }
 
 #nav-bar-wrapper{
+	display: none;
+}
+
+
+#body-wrapper{
 	display: none;
 }
 
