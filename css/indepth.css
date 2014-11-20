@@ -325,12 +325,6 @@
 }
 
 
-
-
-
-
-
-
 @media screen and (min-width: 1920px) {
 	#indepth_libros_container{
 		width: 1920px;
@@ -716,8 +710,7 @@
 	.indepth_store_item.indepth_apple{
 		padding-bottom: 10px;
 	}
-	
-	
+
 	
 	#indepth_page4 iframe{
 		height: 448px;
@@ -731,10 +724,15 @@
 	
 
 
-@media screen and (max-height: 414px) and {
+@media screen and (max-height: 414px) {
 	
 	#indepth_cover{
 		min-height: 0px;
+	}
+	
+	.indepth_break .indepth_parallax_back{
+		height: 380px;
+		background-size: 100% auto;
 	}
 
 
@@ -982,8 +980,4 @@
 	display: none;
 }
 
-#indepth_page4 .player .rounded-box{
-				background: rgba(176, 215, 0, 0.75);
-				
-}
 

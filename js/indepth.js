@@ -130,7 +130,7 @@ $(document).ready(function(){
 	var ventana_alto = $(window).height();
     	$('#indepth_cover').css("height",(ventana_alto)+"px");
     	 if(ventana_alto>600){
-	 	$('.indepth_break').css("height",ventana_alto+"px");
+	 	$('.indepth_break').css("height",(ventana_alto*1.80)+"px");
 	 	$('#indepth_cover .indepth_cover_back_body').css("top",ventana_alto*.60);
  	}
 	if(navigator.platform == 'iPad' || navigator.platform == 'iPhone' || navigator.platform == 'iPod' || navigator.platform == 'Android')
@@ -140,7 +140,7 @@ $(document).ready(function(){
     }else{
     	$('#indepth_cover').css("height",(ventana_alto)+"px");
     	 if(ventana_alto>600){
-	 	$('.indepth_break').css("height",ventana_alto+"px");
+	 	$('.indepth_break').css("height",(ventana_alto*.80)+"px");
 
 
 	 	$('#indepth_cover .indepth_cover_back_body').css("top",ventana_alto*.60);
@@ -164,7 +164,7 @@ $(window).on("resize", function(){
 	var ventana_alto = $(window).height();
     	$('#indepth_cover').css("height",(ventana_alto)+"px");
     	 if(ventana_alto>600){
-	 	$('.indepth_break').css("height",ventana_alto+"px");
+	 	$('.indepth_break').css("height",(ventana_alto*.80)+"px");
 	 	$('#indepth_cover .indepth_cover_back_body').css("top",ventana_alto*.60);
  	}
 	 if(navigator.platform == 'iPad'){
