@@ -1,6 +1,6 @@
 .indepth_social{
 	position: absolute;
-	right: 0px;
+	right:15px;
 	top: 0px;
 }
 
@@ -9,7 +9,7 @@
 }
 
 #indepth_page4 iframe{
-	height: 450px;
+	height: 448px;
 	width: 253px;
 }
 
@@ -134,7 +134,7 @@
 	color:#FFF;
 	font-weight: 400;
 	line-height: 75px;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	width: 600px;
 	text-align: center;
 	margin: auto;
@@ -274,6 +274,10 @@
 	height: 100%;
 }
 
+.indepth_page_cont.i_right{
+	float: right;
+}
+
 
 #indepth_page4 .indepth_store{
 	margin-left: 35px;
@@ -296,57 +300,8 @@
 	color: white;
 }
 
-#indepth_page1 .indepth_quote{
-	color: white;
-}
-
- .indepth_quote{
-	font-family: 'Roboto';
-	font-size: 25px;
-	color: #000;
-	/*border-bottom: 2px solid #000;
-	border-top: 2px solid #000;*/
-	padding: 10px 10px;
-	text-transform: uppercase;
-	font-weight: 700;
-	text-align: center;
-}
-
-.indepth_quote_right{
-	width: 300px;
-	float: right;
-	margin: 10px 0 10px 15px;
-}
-
-.indepth_quote_left{
-	width: 300px;
-	float: left;
-	margin: 20px 15px 20px 0;
-}
-
-.indepth_quote_center{
-		width: 84%;
-		margin: 30px auto;
-		border-bottom:  3px solid black;
-		border-top: 3px solid black;
-		padding: 20px 3%;
-		
-}
-
-.indepth_quote_side{
-	font-size:21px;width:45%;margin:40px 0;
-	float: left;
-}
 
 
-.indepth_image_side{
-	width:45%;margin:0px;
-	float: left;
-}
-
-.indepth_image_side img{
-	width: 100%;
-}
 
 /****DINAMICO****/
 
@@ -503,11 +458,18 @@
 	#indepth_break_3 .indepth_parallax_back{
 		background-position: 50% 50%;
 	}
+	
+	#indepth_page3 img{
+		width: 70%;
+	}
 
 
 }
 
 @media screen and (max-width: 640px) {
+	.indepth_page_cont.i_right{
+		float: none;
+	}
 	#indepth_editor_profile .indepth_page_body{
 		width: 100%;
 		
@@ -531,6 +493,17 @@
 
 	
 }
+
+.indepth_store_item{
+		float: none;
+		margin: auto;
+	}
+	
+#indepth_page4 .indepth_store_item{
+		float: left;
+	}
+
+
 
 #indepth_page3 .indepth_image{
 	width: 70%;
@@ -557,6 +530,18 @@
 	height: 450px;
 	width: 253px;
 }
+
+#indepth_cover .indepth_subtitle, #indepth_cover .indepth_title, .indepth_page_content .indepth_subtitle, .indepth_page_content .indepth_title{
+		text-align: center;
+		padding: 0px;
+		margin-right: 0px;
+		
+	}
+	
+	#indepth_cover .indepth_subtitle, .indepth_page_content .indepth_subtitle{
+		margin: auto;
+		width: 95%;
+	}
 
 .indepth_social_item{
 	width: 50px;
@@ -639,10 +624,7 @@
 		display: table;
 	}
 	
-	.indepth_store_item{
-		float: none;
-		margin: auto;
-	}
+	
 
 }
 
@@ -653,17 +635,33 @@
 		min-height: 650px;	
 	}
 	
+
+	
+	.indepth_store_item{
+		width: 200px;
+		
+		
+	}
+	
+	.indepth_store_item img{
+		width: 100%;
+	}
+	
 	#indepth_cover .indepth_title{
 		width: 100%;
 		font-size: 40px;
 		line-height: 42px;
+		padding: 0px;
 	}
 	
 	#indepth_cover .indepth_subtitle{
-		width: 100%;
+		width: 95%;
 		font-size: 20px;
 		line-height: 26px;
 		margin-top: 0px;
+		margin: auto;
+		margin-bottom: 40px;
+		padding: 0px;
 	}
 		
 	.indepth_arrow_down{
@@ -719,13 +717,15 @@
 		padding-bottom: 10px;
 	}
 	
-	#indepth_page4 .indepth_store_item.indepth_apple{
-		margin: auto;
-	}
+	
 	
 	#indepth_page4 iframe{
-		height: 450px;
+		height: 448px;
 		width: 251px;
+	}
+	
+	.indepth_social{
+		right: 0px;
 	}
 }
 	
@@ -807,6 +807,10 @@
 		min-height: 360px;
 	}
 	
+	.indepth_store_item.indepth_apple{
+		margin: auto;
+		padding-bottom: 10px;
+	}
 	
 	.indepth_page_cont{
 		width: 100%;
@@ -910,6 +914,15 @@
 	#indepth_cover{
 		min-height: 580px;
 	}
+	
+	#indepth_page4 .indepth_store_item{
+		float: none;
+		margin: auto;
+	}
+	
+	#indepth_page4 .indepth_store_item.indepth_apple{
+		margin: auto;
+	}
 }
 
 @media screen and (max-width:320px){
@@ -967,5 +980,10 @@
 
 #nav-bar-wrapper{
 	display: none;
+}
+
+#indepth_page4 .player .rounded-box{
+				background: rgba(176, 215, 0, 0.75);
+				
 }
 

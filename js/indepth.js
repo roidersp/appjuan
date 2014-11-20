@@ -120,6 +120,10 @@ if (window.DISQUS) {
 
 indepth_sizeAdjust(true);
 
+$(".iframe").ready(function(){
+	$(".iframe .player .rounded-box").css("background","rgba(176, 215, 0, 0.75)");
+})
+
 $(document).ready(function(){
 	indepth_sizeAdjust(true);
 	indepth_preloadImgs();
@@ -151,6 +155,8 @@ $(document).ready(function(){
 	    console.log("ipad")
     }
 		loadDisqus($("#indepth_coments"),disqus_url, "http://juanfutbol.com/indepth/"+disqus_url);
+		
+		
 });
 
 $(window).on("resize", function(){
