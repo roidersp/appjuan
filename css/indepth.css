@@ -1,14 +1,40 @@
-.indepth_anuncio_ad{ width:100% !important;height: 100% !important;}
-.indepth_anuncio_ad iframe{ width:100% !important;}
-.indepth_anuncio_ad  #google_image_div{
-	width: 100% !important;
-	height: 100% !important;
+.indepth_social{
+	position: absolute;
+	right: 0px;
+	top: 0px;
 }
 
+.indepth_social.offtext{
+	display: none;
+}
 
+#indepth_page4 iframe{
+	height: 450px;
+	width: 260px;
+}
 
-.indepth_media_cont{
-	width:100%;display:table;margin-bottom:20px;margin-top: 20px;
+.indepth_social_item{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+}
+
+.indepth_social_item.facebook{
+	background-color: #3660A4;
+	background-image: url(../images/boton_facebook.png);
+	margin-bottom: 16px;
+	
+}
+.indepth_social_item.twitter{
+	background-color: #02B2F7;
+	background-image: url(../images/boton_twitter.png);
+}
+
+#indepth_page4 .indepth_title{
+	position: relative;
 }
 
 .indepth_pages{
