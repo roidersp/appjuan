@@ -536,6 +536,56 @@
 	width: 70%;
 	margin: auto;
 }
+
+.indepth_social{
+	position: relative;
+	
+	display: table;
+
+}
+
+.indepth_social.ontext{
+	display: none;
+}
+
+.indepth_social.offtext{
+	display: table;
+	margin: 20px auto;
+}
+
+#indepth_page4 iframe{
+	height: 450px;
+	width: 253px;
+}
+
+.indepth_social_item{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+	float: left;
+	margin-right: 16px;
+}
+
+.indepth_social_item.facebook{
+	background-color: #3660A4;
+	background-image: url(../images/boton_facebook.png);
+	margin-bottom: 0px;
+	
+	
+}
+.indepth_social_item.twitter{
+	background-color: #02B2F7;
+	background-image: url(../images/boton_twitter.png);
+}
+
+.indepth_social_item.whatsapp{
+	background-color: #85D86D;
+	background-image: url(../images/boton_whatsapp.png);
+	margin-right: 0px;
+}
 	
 }
 
@@ -671,6 +721,11 @@
 	
 	#indepth_page4 .indepth_store_item.indepth_apple{
 		margin: auto;
+	}
+	
+	#indepth_page4 iframe{
+		height: 450px;
+		width: 251px;
 	}
 }
 	
