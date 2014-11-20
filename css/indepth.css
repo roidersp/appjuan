@@ -215,46 +215,6 @@
 	padding-left: 35px;
 }
 
-.indepth_page_content .indepth_text{
-	color: #535252; /* color de la fuente*/
-	text-align:justify; /* ajustar alineacion (justify, left, right o center) */
-	font-weight: 400;
-	font-size: 1em;
-}
-
-.indepth_page_infografia{
-	
-}
-
-.indepth_page_infografia .indepth_page_body{
-	text-align: center;
-}
-
-#indepth_footer{
-	background-color: #F8F8F8;
-	border-top: 1px solid #8A8A8A;
-	border-bottom: 1px solid #8A8A8A;
-	padding: 15px 0px;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-#indepth_footer .indepth_text{
-	font-size:17px;
-	color: #8A8A8A;
-	text-align:center;
-}
-
-#indepth_footer .indepth_page_body{
-	position: relative;
-}
-
-#indepth_footer .Copyright{
-		float: left;
-		text-align: center;
-		width: 100%;
-}
-
 .indepth_break{
 		height: 800px;
 }
@@ -267,7 +227,6 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 50% 0px;
-
 }
 
 
@@ -281,8 +240,6 @@
 	background-position: 50% 50%;
 }
 
-
-
 .indepth_page_cont{
 	float: left;
 	width: 50%;
@@ -291,8 +248,6 @@
 	height: 100%;
 }
 
-.indepth_page{
-}
 
 #indepth_page4 .indepth_store{
 	margin-left: 35px;
@@ -550,6 +505,11 @@
 
 	
 }
+
+#indepth_page3 .indepth_image{
+	width: 70%;
+	margin: auto;
+}
 	
 }
 
@@ -636,7 +596,7 @@
 	
 	.indepth_store_item.indepth_apple{
 		margin: auto;
-		margin-bottom: 15px;
+		padding-bottom: 10px;
 	}
 	#indepth_cover .indepth_cover_back_body{
 		top:240px;
@@ -667,6 +627,24 @@
 		background-repeat: no-repeat;
 		background-attachment: initial;
 		background-position: 50% 50%;
+	}
+	
+	#indepth_page4 .indepth_store{
+		margin: auto;
+		margin-top: 30px;
+	}
+	
+	#indepth_page4 .indepth_store_item{
+		margin: auto;
+		
+	}
+	
+	.indepth_store_item.indepth_apple{
+		padding-bottom: 10px;
+	}
+	
+	#indepth_page4 .indepth_store_item.indepth_apple{
+		margin: auto;
 	}
 }
 	
